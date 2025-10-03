@@ -1,6 +1,6 @@
 {
   "name": "my-react-app",
-  "homepage": "https://olaflex10000.github.io/estate-management/",
+  "homepage": "https://olaflex10000.github.io/estate-management-web/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@formspree/react": "^3.0.0",
