@@ -1,5 +1,6 @@
 {
   "name": "my-react-app",
+  "homepage": "https://olaflex10000.github.io/estate-management/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,11 +8,13 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build"
   },
   "dependencies": {
     "@formspree/react": "^3.0.0",
     "framer-motion": "^12.23.22",
+    "gh-pages": "^6.3.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-toastify": "^11.0.5"
