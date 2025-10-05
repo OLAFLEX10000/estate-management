@@ -10,8 +10,11 @@ const Contact = () => {
   
   if (state.succeeded) {
       toast.success('Form Submitted Sucessfully')
-  }else{
+  }else if (!state.succeeded){
     toast.error('Error in process')
+  }
+  else{
+    return ''
   }
 
   return (

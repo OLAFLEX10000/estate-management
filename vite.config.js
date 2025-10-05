@@ -5,7 +5,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/estate-management-web",
+  base: "/estate-management/",
   plugins: [tailwindcss(),react()],
  
 })
