@@ -44,7 +44,7 @@ const About = () => {
               residents feel at home. With a commitment to excellence and a vision for long-term growth, 
             we transform property management into a partnership built on trust, reliability, and lasting success
            </p>
-           <button className='bg-blue-600 text-white px-8 py-2 rounded'>Leran more</button>
+           <button className='bg-blue-600 text-white px-8 py-2 rounded'>Learn more</button>
         </div>
       </div>
     </motion.div>
